@@ -1,0 +1,38 @@
+{
+  "name": "explore-editor-react",
+  "version": "0.0.1",
+  "description": "A React Component for Suneditor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meta-explore/meta-editor-react"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "compile": "rm -rf ./lib && tsc",
+    "prepare": "npm run compile",
+    "prepublish": "npm run compile"
+  },
+  "keywords": [
+    "editor",
+    "wysiwyg",
+    "suneditor",
+    "text-editor",
+    "word",
+    "react"
+  ],
+  "author": "MetaExplore",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^15.3.0",
+    "@types/react": "^17.0.5",
+    "explore-editor": "^0.0.1-beta.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.2.4"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
