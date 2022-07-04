@@ -12,6 +12,8 @@
 # src
 /src
 
+.git/
+
 # misc
 .DS_Store
 .env.local

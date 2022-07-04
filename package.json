@@ -6,6 +6,7 @@
     "type": "git",
     "url": "https://github.com/meta-explore/explore-editor-react"
   },
+  "homepage": "https://github.com/meta-explore/explore-editor-react#readme",
   "main": "lib/index.js",
   "scripts": {
     "compile": "rm -rf ./lib && tsc",
