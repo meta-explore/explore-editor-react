@@ -1,5 +1,5 @@
-import { MetaEditorReactProps } from './types';
+import { ExploreEditorReactProps } from "./types";
 
-declare const MetaEditorReact: MetaEditorReactProps;
+declare const ExploreEditorReact: ExploreEditorReactProps;
 
-export as namespace MetaEditorReact;
+export as namespace ExploreEditorReact;
